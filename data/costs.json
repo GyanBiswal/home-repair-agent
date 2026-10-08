@@ -1,0 +1,65 @@
+{
+    "currency": "USD",
+    "costs": {
+        "washer_clogged_pump": {
+            "diy": [
+                0,
+                10
+            ],
+            "professional": [
+                60,
+                150
+            ]
+        },
+        "washer_unbalanced_load": {
+            "diy": [
+                0,
+                0
+            ],
+            "professional": [
+                50,
+                120
+            ]
+        },
+        "fridge_dirty_coils": {
+            "diy": [
+                0,
+                15
+            ],
+            "professional": [
+                70,
+                150
+            ]
+        },
+        "fridge_door_seal": {
+            "diy": [
+                20,
+                60
+            ],
+            "professional": [
+                100,
+                250
+            ]
+        },
+        "ac_dirty_filter": {
+            "diy": [
+                0,
+                20
+            ],
+            "professional": [
+                60,
+                120
+            ]
+        },
+        "ac_low_refrigerant": {
+            "diy": [
+                0,
+                0
+            ],
+            "professional": [
+                150,
+                500
+            ]
+        }
+    }
+}

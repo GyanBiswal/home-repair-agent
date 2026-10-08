@@ -1,0 +1,110 @@
+[
+    {
+        "issue_id": "washer_clogged_pump",
+        "appliance": "washing machine",
+        "issue": "Clogged drain pump or filter",
+        "symptoms": [
+            "drain",
+            "hum",
+            "water left",
+            "standing water"
+        ],
+        "safe_steps": [
+            "Unplug the machine and turn off the water supply",
+            "Check the drain hose for kinks or blockages",
+            "Clean the drain pump filter (usually behind a small front panel), with a towel ready for spilled water"
+        ],
+        "call_technician_if": "The filter is clear but the machine still won't drain, or the pump hums and never runs"
+    },
+    {
+        "issue_id": "washer_unbalanced_load",
+        "appliance": "washing machine",
+        "issue": "Unbalanced load or uneven leveling",
+        "symptoms": [
+            "shak",
+            "bang",
+            "vibrat",
+            "walk",
+            "spin"
+        ],
+        "safe_steps": [
+            "Pause the cycle and redistribute heavy items evenly",
+            "Check that all four feet touch the floor and adjust them",
+            "Avoid washing a single heavy item alone"
+        ],
+        "call_technician_if": "Shaking continues with a balanced load and level feet, or you hear grinding"
+    },
+    {
+        "issue_id": "fridge_dirty_coils",
+        "appliance": "refrigerator",
+        "issue": "Dirty condenser coils or blocked airflow",
+        "symptoms": [
+            "cool",
+            "warm",
+            "running constantly",
+            "compressor"
+        ],
+        "safe_steps": [
+            "Unplug the fridge before cleaning",
+            "Vacuum dust from the coils (back or bottom grille)",
+            "Keep gaps around the fridge and don't overpack the vents inside"
+        ],
+        "call_technician_if": "Cleaning does not help within a day, or the compressor clicks on and off repeatedly"
+    },
+    {
+        "issue_id": "fridge_door_seal",
+        "appliance": "refrigerator",
+        "issue": "Worn or dirty door seal",
+        "symptoms": [
+            "frost",
+            "condens",
+            "seal",
+            "not closing",
+            "sweat",
+            "ice"
+        ],
+        "safe_steps": [
+            "Wipe the door gasket with warm soapy water",
+            "Test the seal with a sheet of paper; it should resist being pulled out",
+            "Check the door isn't blocked by items inside"
+        ],
+        "call_technician_if": "The gasket is torn or the door still won't seal after cleaning"
+    },
+    {
+        "issue_id": "ac_dirty_filter",
+        "appliance": "air conditioner",
+        "issue": "Dirty air filter",
+        "symptoms": [
+            "airflow",
+            "weak",
+            "cool",
+            "freez",
+            "ice",
+            "smell"
+        ],
+        "safe_steps": [
+            "Turn the unit off and remove the front-panel filter",
+            "Rinse or vacuum the filter and let it dry fully",
+            "Reinstall it and run the unit in fan mode first"
+        ],
+        "call_technician_if": "Airflow stays weak or ice keeps forming after the filter is clean"
+    },
+    {
+        "issue_id": "ac_low_refrigerant",
+        "appliance": "air conditioner",
+        "issue": "Low refrigerant or leak",
+        "symptoms": [
+            "cool",
+            "hiss",
+            "ice",
+            "warm air",
+            "oily"
+        ],
+        "safe_steps": [
+            "Confirm the thermostat is in cool mode and set below room temperature",
+            "Make sure the filter is clean first",
+            "Do not attempt to handle refrigerant yourself"
+        ],
+        "call_technician_if": "Always. Refrigerant work requires a licensed technician"
+    }
+]
