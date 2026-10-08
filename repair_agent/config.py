@@ -1,9 +1,10 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # reads .env from the project root into environment variables
+load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 
 def check_config() -> None:
@@ -13,4 +14,4 @@ def check_config() -> None:
 
 if __name__ == "__main__":
     check_config()
-    print(f"Config OK (key loaded, {len(GROQ_API_KEY)} characters)")
+    print(f"Config OK (model: {GROQ_MODEL}, key loaded, {len(GROQ_API_KEY)} characters)")
